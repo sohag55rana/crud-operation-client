@@ -27,11 +27,10 @@ const Navbar = () => {
         {/* <li className="font-bold"><NavLink to="/contact">Contact Us</NavLink></li> */}
         <li className="font-bold"><NavLink to="/addProduct">Add Product</NavLink></li>
         <li className="font-bold"><NavLink to="/myProducts">myProducts</NavLink></li>
-        <li className="font-bold"><NavLink to="/singleUser">singleUser</NavLink></li>
+        {/* <li className="font-bold"><NavLink to="/productsDetails">Details</NavLink></li> */}
         {/* <li className="font-bold"><NavLink to="/myequipment">My Equipment</NavLink></li> */}
         <li className="font-bold"><NavLink to="/login">Login</NavLink></li>
         <li className="font-bold"><NavLink to="/register">Register</NavLink></li>
-        <li className="font-bold"><NavLink to="/example">Example</NavLink></li>
     </>
     return (
         <div className="navbar bg-base-100">
